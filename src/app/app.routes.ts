@@ -3,6 +3,7 @@ import { LayoutComponent } from './pages/layout/layout.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu/menu.component';
 
+
 export const routes: Routes = [
     {
         path: '',
