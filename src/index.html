@@ -5,7 +5,24 @@
   <title>Sublime</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link id="favicon" rel="icon" type="image/x-icon" href="app/assets/logo_ico.png">
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const favicon = document.getElementById('favicon');
+      const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+      function updateFavicon() {
+        if (darkModeMediaQuery.matches) {
+          favicon.href = 'app/assets/logo_ico_white.png';
+        } else {
+          favicon.href = 'app/assets/logo_ico.png';
+        }
+      }
+
+      darkModeMediaQuery.addEventListener('change', updateFavicon);
+      updateFavicon();  // Initial check
+    });
+  </script>
 </head>
 <body>
   <app-root></app-root>

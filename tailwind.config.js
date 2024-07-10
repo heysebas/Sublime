@@ -6,6 +6,6 @@ module.exports = {
   theme: {
     extend: {},
   },
+  darkMode: 'media', // o 'class' si prefieres usar clases CSS
   plugins: [],
 }
-
