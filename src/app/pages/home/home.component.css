@@ -1,0 +1,24 @@
+.custom-font {
+  font-family: 'Bookman Old Style', serif;
+}
+
+@media (max-width: 768px) {
+  .text-justify {
+    display: block;
+    text-align: left;
+  }
+  .float-right {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-justify {
+    display: block;
+    text-align: justify;
+  }
+  .float-right {
+    float: right;
+  }
+}
+
