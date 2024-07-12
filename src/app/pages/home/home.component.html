@@ -1,19 +1,93 @@
-<div class="flex flex-col justify-center items-center min-h-screen bg-green-100">
+<div class="flex flex-col justify-center items-center min-h-screen bg-green-100 mt-16 md:mt-28">
   <div
     class="max-w-screen-lg w-full bg-green-50 bg-opacity-70 rounded-2xl border border-emerald-300 p-4 shadow-xl relative">
-    <div class="absolute inset-0 rounded-2xl bg-cover bg-center border-8 border-emerald-400 lg:border-2" style="background-image:
-    url('app/assets/Fondo.png'); opacity: 0.6;"></div>
+    <div class="absolute inset-0 rounded-2xl bg-cover bg-center border-8 border-emerald-400 lg:border-2"
+      style="background-image: url('app/assets/Fondo.png'); opacity: 0.6;"></div>
     <h1 class="custom-font text-3xl text-center text-black mt-4">Café y Té</h1>
     <h3 class="custom-font text-lg text-center text-black">Leche entera, deslactosada, almendras</h3>
     <div class="custom-font text-base text-center text-black mt-4">
       <h2 class="custom-font text-2xl text-center text-black">Calientes</h2>
-      <div class="mt-2" style="width: 90%">
-        <ul [ngClass]="{'text-xs': isMobile, 'text-sm': !isMobile, 'list-none': true}" style="width: 90%">
-          <li *ngFor="let item of menuItems" class="text-justify text-black">
-            {{ item.name }}<span class="float-right">{{ item.price }}</span>
+      <div class="mt-2" style="width:96%; margin-left: 2%;">
+        <ul class="text-sm list-none" style="width: 100%; padding: 0;">
+          <li *ngFor="let item of menuItems" class="menu-item flex justify-between items-center text-black">
+            <span class="menu-item-name">{{ item.name }}</span>
+            <span class="menu-item-price">{{ item.price }}</span>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="max-w-screen-lg w-full bg-green-50 bg-opacity-70 rounded-2xl border border-emerald-300 p-4 shadow-xl relative"
+    style="margin-top: 2%;">
+    <div class="absolute inset-0 rounded-2xl bg-cover bg-center border-8 border-emerald-400 lg:border-2"
+      style="background-image: url('app/assets/Fondo.png'); opacity: 0.6;"></div>
+    <h1 class="custom-font text-3xl text-center text-black mt-4">Café y Té</h1>
+    <h3 class="custom-font text-lg text-center text-black">Leche entera, deslactosada, almendras</h3>
+    <div class="custom-font text-base text-center text-black mt-4">
+      <h2 class="custom-font text-2xl text-center text-black">Frío</h2>
+      <div class="mt-2" style="width:96%; margin-left: 2%;">
+        <ul class="text-sm list-none" style="width: 100%; padding: 0;">
+          <li *ngFor="let item of menuItems" class="menu-item-2 flex justify-between items-center text-black">
+            <span class="menu-item-name">{{ item.name2 }}</span>
+            <span class="menu-item-price">{{ item.price2 }}</span>
           </li>
         </ul>
       </div>
     </div>
+
+
+    <div class="custom-font text-base text-center text-black mt-4">
+      <h2 class="custom-font text-2xl text-center text-black">Burbujeantes</h2>
+      <div class="mt-2" style="width:96%; margin-left: 2%;">
+        <ul class="text-sm list-none" style="width: 100%; padding: 0;">
+          <li *ngFor="let item of menuItems" class="menu-item-3 flex justify-between items-center text-black">
+            <span class="menu-item-name">{{ item.name3 }}</span>
+            <span class="menu-item-price">{{ item.price3 }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="custom-font text-base text-center text-black mt-4">
+      <h2 class="custom-font text-2xl text-center text-black">Limonadas</h2>
+      <div class="mt-2" style="width:96%; margin-left: 2%;">
+        <ul class="text-sm list-none" style="width: 100%; padding: 0;">
+          <li *ngFor="let item of menuItems" class="menu-item-3 flex justify-between items-center text-black">
+            <span class="menu-item-name">{{ item.name4 }}</span>
+            <span class="menu-item-price">{{ item.price4 }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="custom-font text-base text-center text-black mt-4">
+      <h2 class="custom-font text-2xl text-center text-black">Smoothies</h2>
+      <div class="mt-2" style="width:96%; margin-left: 2%;">
+        <ul class="text-sm list-none" style="width: 100%; padding: 0;">
+          <li *ngFor="let item of menuItems" class="menu-item-3 flex justify-between items-center text-black">
+            <span class="menu-item-name">{{ item.name5 }}</span>
+            <span class="menu-item-price">{{ item.price5 }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="custom-font text-base text-center text-black mt-4">
+      <h2 class="custom-font text-2xl text-center text-black">Cocteles Sublime </h2>
+      <div class="mt-2" style="width:96%; margin-left: 2%;">
+        <ul class="text-sm list-none" style="width: 100%; padding: 0;">
+          <li *ngFor="let item of menuItems" class="menu-item-3 flex justify-between items-center text-black">
+            <span class="menu-item-name">{{ item.name6 }}</span>
+            <span class="menu-item-price">{{ item.price6 }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    
+
   </div>
 </div>
