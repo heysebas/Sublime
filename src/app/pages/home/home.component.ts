@@ -135,6 +135,24 @@ export class HomeComponent implements OnInit {
     { name10: 'Tartaletas: Frutos rojos . Maracuyá . Pie de limón cake', price10: '$8.900' }
   ];
 
+  menuItems11 = [
+    { name11: 'Huevos teriyaki Huevos pochados en reducción de salsa teriyaki, aguacate, pan artesanal de la casa y aceite de ajonjolí', price11: '$18.9 00' },
+    { name11: 'Huevos florentinos Huevos pochados en salsa bearnesa, pure de aguacate, queso crema de paprika, pan artesanal de la casa y tomates al romero', price11: '$19.900' },
+    { name11: 'Sanduche de croissant Croissant mantequilla, huevos pochados con aguacate, tocineta y salsa bearnesa', price11: '$19.900' },
+    { name11: 'Calentado paisa Arroz con frijoles, arepa con queso, huevo, aguacate y una proteína a elección (Milanesa de cerdo, chorizo o chicharrón)', price11: '$22.900' },
+    { name11: 'Calentado paisa especial Arroz con frijoles, milanesa de cerdo, chorizo, chicharrón, arepa con queso, huevo y aguacate', price11: '$28.900' },
+    { name11: 'Pancakes originales Tres pancakes mantequilla, tocineta y miel maple', price11: '$15.900' },
+    { name11: 'Pancakes fantasía Pancakes de arándanos, fresas y chocolate, miel maple', price11: '$18.900' },
+    { name11: 'Tostadas francesas Pan artesanal de la casa rebosado, fresas y arándanos, azúcar glass y canela; miel maple de cítricos', price11: '$18.900' },
+    { name11: 'Sanduche de pandebono  Pandebono y huevos pochados con aguacate, tocineta y salsa bearnesa', price11: '$19.900' },
+    { name11: 'Parfait Granola, yogurt, duraznos, fresa, kiwi y crema batida', price11: '$18.900' },
+    { name11: 'Huevos al gusto Fritos o revueltos, acompañados con pan de la casa', price11: '$7.900' },
+    { name11: 'Jamón', price11: '$4.900' },
+    { name11: 'Queso Mozarella', price11: '$2.900' },
+    { name11: 'Tocineta', price11: '$6.900' },
+    { name11: 'Queso campesino', price11: '$2.900' }
+  ];
+
 
 
 

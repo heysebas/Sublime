@@ -176,4 +176,26 @@
     </div>
 
   </div>
+
+  <div
+    class="max-w-screen-lg w-full bg-green-50 bg-opacity-70 rounded-2xl border border-emerald-300 p-4 shadow-xl relative"
+    style="margin-top: 2%;">
+    <div class="absolute inset-0 rounded-2xl bg-cover bg-center border-8 border-emerald-400 lg:border-2"
+      style="background-image: url('app/assets/Fondo.png'); opacity: 0.6;"></div>
+    <h1 class="custom-font text-3xl text-center text-black mt-4">Desayunos todo el día</h1>
+
+    <div class="custom-font text-base text-center text-black mt-4">
+      <h2 class="custom-font text-2xl text-center text-black"></h2>
+      <div class="mt-2" style="width:96%; margin-left: 2%;">
+        <ul class="text-sm list-none" style="width: 100%; padding: 0;">
+          <li *ngFor="let item of menuItems11"
+            class="menu-item-5 flex justify-between items-center border-b border-black border-dotted opacity-50 my-4 shadow-xl p-4 text-black">
+            <span class="menu-item-name block text-left-custom w-64 md:w-auto">{{ item.name11 }}</span>
+            <span class="menu-item-price">{{ item.price11 }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
 </div>
