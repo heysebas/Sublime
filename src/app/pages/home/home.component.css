@@ -22,29 +22,35 @@
   }
 }
 
-.menu-item {
-  margin-bottom: 5px; /* Ajusta el valor según el espaciado deseado */
-}
 
-.menu-item-2 {
-  margin-bottom: 3px; /* Ajusta el valor según el espaciado deseado */
-}
-
-.menu-item-3 {
-  margin-bottom: 1px; /* Ajusta el valor según el espaciado deseado */
-}
-
-
-
-.menu-item-name {
+.text-left-custom {
   text-align: left;
-  flex-grow: 1; /* Para que ocupe el espacio disponible */
-}
-
-.menu-item-price {
-  text-align: right;
-  white-space: nowrap; /* Para evitar que el precio se rompa en dos líneas */
 }
 
 
+.menu-item-2{
+  margin-top: 10px;
+}
 
+.menu-item-3{
+  margin-top: 16px;
+}
+
+.menu-item-4{
+  margin-top: 16px;
+}
+
+.menu-item-5{
+  margin-top: 16px;
+}
+
+.menu-item-6{
+  margin-top: 16px;
+}
+
+
+/* styles.css o el archivo CSS correspondiente */
+.menu-item-5 .menu-item-name,
+.menu-item-5 .menu-item-price {
+    @apply text-black;
+}
