@@ -169,13 +169,117 @@ export class HomeComponent implements OnInit {
 
 
   menuItems13 = [
-    { name13: 'Bowl avena Avena cocinada con fresas, banano, arándanos, semillas de chía, almendras laminadas, chocolate semiamargo y canela ', price13: '$18.900' },
+    { name13: 'Bowl avena Avena cocinada con fresas, banano, arándanos, semillas de chía, almendras laminadas, chocolate semiamargo y canela', price13: '$18.900' },
     { name13: 'Pollo & Mango Cubos de pollo teriyaki, arroz al ajonjolí, mix de hojas verdes, aguacate, mango, tomates cherry y semillas de ajonjo', price13: '$26.900' },
-    { name13: 'Salmón & Piña Cubos de salmón, arroz al ajonjolí, mix de hojas verdes, aguacate, piña, tomates cherry y semillas de ajonjolí, salsa de miel mostaza y anís ', price13: '$29.900' }
+    { name13: 'Salmón & Piña Cubos de salmón, arroz al ajonjolí, mix de hojas verdes, aguacate, piña, tomates cherry y semillas de ajonjolí, salsa de miel mostaza y anís', price13: '$29.900' }
   ];
 
+  menuItems14 = [
+    { name14: 'Carbonara romana Pasta fetuccini con tocineta en salsa blanca y queso parmesano', price14: '$34.900' },
+    { name14: 'Boloñesa Pasta fetuccini con carne de res molida en salsa pomodoro y queso parmesano', price14: '$34.900' },
+    { name14: 'Pizza suculenta Salami Italiano, chorizo Ibérico, pepperoni, queso mozzarella, rugúla y albahaca', price14: '$39.900' },
+    { name14: 'Pizza hawaiana Jamón de cerdo, piña calada y queso mozzarella', price14: '$36.900' },
+    { name14: 'Pizza Sublime Borde estrella con mozzarella, burrata (queso de búfala), tomates al romero, rugúla y albahaca', price14: '$39.900' }
+  ];
 
+  menuItems15 = [
+    { name15: 'Cerdo agridulce y arroz teriyaki Cubos apanados de cerdo en salsa agridulce, arroz y vegetales salteados al wok', price15: '$37.900' },
+    { name15: 'Pollo teriyaki y arroz teriyaki Cubos de pechuga de pollo en salsa teriyaki, arroz y vegetales salteados al wok', price15: '$37.900' },
+    { name15: 'Solomito trufado y arroz cremoso Filete de solomito en mantequilla trufada con arroz cremoso de setas', price15: '$54.900' },
+    { name15: 'Salmón trufado y arroz cremoso Filete de salmón en mantequilla trufada con arroz cremoso de setas', price15: '$54.900' },
+    { name15: 'Costillas Sublime Cocción lenta de costillas de cerdo en salsa teriyaki y puré de papa con mantequilla trufada', price15: '$49.900' }
+  ];
 
+  menuItems16 = [
+    { name16: 'Nuggets de pollo Cubos de pollo apanados y papas a la francesa, salsa de tomate y mayonesa', price16: '$21.900' },
+    { name16: 'Salchipapa Salchichas en lonjas y papas a la francesa, salsa de tomate y mayonesa', price16: '$16.900' }
+  ];
+
+  menuItems17 = [
+    { name17: 'Vino de la casa De la huerta tinto (Cabernet Sauvignon) Seco', price17: '$74.900' },
+    { name17: 'Vino de la casa De la huerta rosado (Cabernet Sauvignon) Semi seco', price17: '$74.900' },
+    { name17: 'Vino de la casa De la huerta rosado (Cabernet Sauvignon) Semi seco', price17: '$74.900' },
+    { name17: 'Copa', price17: '$17.000' },
+    { name17: 'Vinos tintos Tarapaca - Cabernet Sauvignon Tarapaca - Merlot La Celia - Cabernet Franc', price17: '$110.000' },
+    { name17: 'Vinos tintos  Legado Muñoz - Tempranillo', price17: '$100.000' },
+    { name17: 'Vinos rosados Tarapaca - Cabarnet Sauvignon', price17: '$90.000' },
+    { name17: 'Vinos rosados Las moras - Syrah', price17: '$90.000' },
+    { name17: 'Vinos rosados Montes Cherub - Syrah', price17: '$150.000' },
+    { name17: 'Vinos blancos Trapiche - Sauvignon blanc', price17: '$90.000' },
+    { name17: 'Vinos blancos Las moras - Chardonnay', price17: '$116.000' },
+    { name17: 'Vinos blancos Michel Torino - Torrontes', price17: '$90.000' },
+    { name17: 'Vinos Espumosos Lambrusco Tinto . Rosado . Blanco', price17: '$80.000' }
+  ];
+
+  menuItems18 = [
+    { name18: 'Zacapa 23 años', price18: '$450.000' },
+    { name18: 'Trago', price18: '$50.000' },
+    { name18: 'La hechicera', price18: '$350.000' },
+    { name18: 'Trago', price18: '$38.000' },
+    { name18: 'Ron viejo de caldas', price18: '$90.000' },
+    { name18: 'Trago', price18: '$10.000' },
+    { name18: 'Ron Medellín Pink', price18: '$110.000' },
+    { name18: 'Trago', price18: '$11.000' }
+  ];
+
+  menuItems19 = [
+    { name19: 'Gordons', price19: '$130.000' },
+    { name19: 'Selva', price19: '$260.000' },
+    { name19: 'Tanqueray', price19: '$410.000' },
+    { name19: 'Hendricks', price19: '$390.000' }
+  ];
+
+  menuItems20 = [
+    { name20: 'Absolut', price20: '$150.000' },
+    { name20: 'Trago', price20: '$19.000' }
+  ];
+
+  menuItems21 = [
+    { name21: 'Baileys', price21: '$130.000' },
+    { name21: 'Trago', price21: '$13.000' }
+  ];
+
+  menuItems22 = [
+    { name22: 'Buchanan´s', price22: '$260.000' },
+    { name22: 'Trago', price22: '$27.000' },
+    { name22: 'Jacks Daniels Honey', price22: '$230.000' },
+    { name22: 'Trago', price22: '$25.000' },
+    { name22: 'Glendffidich 12 años', price22: '$360.000' },
+    { name22: 'Trago', price22: '$37.000' },
+    { name22: 'Glenlivet 12 años', price22: '$330.000' },
+    { name22: 'Trago', price22: '$38.000' }
+  ];
+
+  menuItems23 = [
+    { name23: 'Centenario', price23: '$200.000' },
+    { name23: 'Trago', price23: '$13.000' },
+    { name23: 'Don Julio reposado', price23: '$450.000' },
+    { name23: 'Trago', price23: '$50.000' },
+    { name23: 'Don Julio reposado añejo', price23: '$530.000' },
+    { name23: 'Trago', price23: '$55.000' },
+    { name23: 'Don julio blanco', price23: '$350.000' },
+    { name23: 'Trago', price23: '$45.000' },
+    { name23: 'Don julio', price23: '$650.000' },
+    { name23: 'Trago', price23: '$70.000' }
+  ];
+
+  menuItems24 = [
+    { name24: 'Aguardiente amarillo', price24: '$90.000' },
+    { name24: 'Trago', price24: '$10.000' },
+    { name24: 'Aguardiente antioqueño', price24: '$90.000' },
+    { name24: 'Media', price24: '$45.000' },
+    { name24: 'Trago', price24: '$10.000' }
+  ];
+
+  menuItems25 = [
+    { name25: 'Águila light', price25: '$6.500' },
+    { name25: 'Club Colombia', price25: '$7.900' },
+    { name25: 'Corona', price25: '$8.500' },
+    { name25: 'Delirium Nocturnom ', price25: '$35.900' },
+    { name25: 'Delirium tremens', price25: '$35.900' },
+    { name25: 'Kristoffe rose', price25: '$27.900' },
+    { name25: 'Tres cordilleras Mulata, rosada o negra', price25: '$8.200' }
+  ];
 
   isMobile: boolean = false;
 

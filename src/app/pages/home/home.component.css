@@ -54,3 +54,30 @@
 .menu-item-5 .menu-item-price {
     @apply text-black;
 }
+
+
+
+
+
+
+
+
+
+
+/* Estilos del menú */
+nav {
+  background-color: #2d3748; /* Color de fondo del menú */
+}
+nav a {
+  color: white; /* Color del texto del menú */
+  text-decoration: none; /* Quitar el subrayado */
+}
+nav a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+/* Mostrar menú en pantallas grandes */
+@media (min-width: 1024px) {
+  #menu {
+    display: flex !important;
+  }
+}
