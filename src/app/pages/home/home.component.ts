@@ -154,6 +154,26 @@ export class HomeComponent implements OnInit {
   ];
 
 
+  menuItems12 = [
+    { name12: 'Crema pomodoro Crema de tomate con tocineta queso mozzarella, aguacate y panela rayada ', price12: '$24.900' },
+    { name12: 'Crema dos colores Crema de champiñones París y tomate; queso parmesano', price12: '$21.900' },
+    { name12: 'Tacos kanikama crunch Tres unidades de tacos crocantes con palmitos de cangrejo en mayonesa japonesa picante y mango', price12: '$29.900' },
+    { name12: ' Hamburguesa Sublime Pan brioche artesanal de la casa, carne de res, tocineta, queso mozzarella, salsa Sublime, lechuga, tomate y aros de cebolla', price12: '$20.900' },
+    { name12: 'Con papas a la francesa', price12: '$26.900' },
+    { name12: 'Sanduche roast beef Pan artesanal de la casa, lonjas de carne de res, queso mozzarella, salsa Sublime, lechuga, tomate y papas a la francesa', price12: '$26.900' },
+    { name12: 'Chicharrones Sublime Crocante tocino de cerdo con arepa y patacones', price12: '$26.900' },
+    { name12: 'Chorizos Sublime Dos chorizos artesanales con arepa y patacones', price12: '$18.900' },
+    { name12: 'Picada tradicional (3 pax) Costilla de cerdo, pollo, chicharrón, chorizo, arepa, patacones, papas a la francesa y tomates', price12: '$59.900' },
+    { name12: 'Totopos Sublime (2 pax) Nachos con carne de res desmechada, guacamole, pico de gallo, crema agria, queso cheddar y queso mozzarella', price12: '$39.900' }
+  ];
+
+
+  menuItems13 = [
+    { name13: 'Bowl avena Avena cocinada con fresas, banano, arándanos, semillas de chía, almendras laminadas, chocolate semiamargo y canela ', price13: '$18.900' },
+    { name13: 'Pollo & Mango Cubos de pollo teriyaki, arroz al ajonjolí, mix de hojas verdes, aguacate, mango, tomates cherry y semillas de ajonjo', price13: '$26.900' },
+    { name13: 'Salmón & Piña Cubos de salmón, arroz al ajonjolí, mix de hojas verdes, aguacate, piña, tomates cherry y semillas de ajonjolí, salsa de miel mostaza y anís ', price13: '$29.900' }
+  ];
+
 
 
 
