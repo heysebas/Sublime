@@ -1,0 +1,84 @@
+.custom-font {
+    font-family: 'Bookman Old Style', serif;
+  }
+  
+  @media (max-width: 768px) {
+    .text-justify {
+      display: block;
+      text-align: left;
+    }
+    .float-right {
+      float: right;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .text-justify {
+      display: block;
+      text-align: justify;
+    }
+    .float-right {
+      float: right;
+    }
+  }
+  
+  
+  .text-left-custom {
+    text-align: left;
+  }
+  
+  
+  .menu-item-2{
+    margin-top: 10px;
+  }
+  
+  .menu-item-3{
+    margin-top: 16px;
+  }
+  
+  .menu-item-4{
+    margin-top: 16px;
+  }
+  
+  .menu-item-5{
+    margin-top: 16px;
+  }
+  
+  .menu-item-6{
+    margin-top: 16px;
+  }
+  
+  
+  /* styles.css o el archivo CSS correspondiente */
+  .menu-item-5 .menu-item-name,
+  .menu-item-5 .menu-item-price {
+      @apply text-black;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Estilos del menú */
+  nav {
+    background-color: #2d3748; /* Color de fondo del menú */
+  }
+  nav a {
+    color: white; /* Color del texto del menú */
+    text-decoration: none; /* Quitar el subrayado */
+  }
+  nav a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+  }
+  /* Mostrar menú en pantallas grandes */
+  @media (min-width: 1024px) {
+    #menu {
+      display: flex !important;
+    }
+  }
+  
