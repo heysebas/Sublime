@@ -44,14 +44,15 @@ export class HomeComponent implements OnInit {
       this.isOpen = true;
       this.statusLabel = 'Abierto';
       this.statusColor = 'text-green-500'; // Texto verde para abierto
-      this.closingTime = closeTime;
+      this.closingTime = closeTime; // Hora de cierre
     } else {
       this.isOpen = false;
       this.statusLabel = 'Cerrado';
       this.statusColor = 'text-red-500'; // Texto rojo para cerrado
-      this.closingTime = openTime;
+      this.closingTime = openTime; // Hora de apertura
     }
   }
+
 
   formatTime(hour: number): string {
     const ampm = hour >= 12 ? 'p.m.' : 'a.m.';
